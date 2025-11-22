@@ -35,3 +35,5 @@ if __name__ == "__main__":
     print("Starting batch segmentation...")
     batch_segment(input_dir, output_dir)
     print("Done.")
+
+print("This is a  script.")
