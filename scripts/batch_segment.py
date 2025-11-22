@@ -27,6 +27,7 @@ def batch_segment(input_dir, output_dir):
             cv2.imwrite(save_path, mask)
             print(f"[OK] {fname} processed.")
 
+
 if __name__ == "__main__":
     input_dir = "./data/images"
     output_dir = "./results/masks"
